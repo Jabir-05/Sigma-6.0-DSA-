@@ -9,3 +9,4 @@ public class ClearIBit {
         System.out.println(ClearIBit(15, 2));
     }
 }
+// code 
