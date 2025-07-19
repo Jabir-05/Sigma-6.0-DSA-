@@ -9,5 +9,7 @@ public class Powerof2 {
         System.out.println(IspowerOfTwo(7));
         System.out.println();
         System.out.println();
+        System.out.println();
+        System.out.println();
     }
 }
