@@ -16,7 +16,7 @@ public class removeDuplicates {
         }
     }
     public static void main(String[] args) {
-        String str = "appnnacollege";
+        String str = "jabirimteyaz";
         removeDuplicates(str, 0,new StringBuilder(""), new boolean[26]);
     }
 }
