@@ -1,3 +1,4 @@
+import java.util.Set;
 import java.util.HashMap;
 public class hashmapExample {
     public static void main(String[] args) {
@@ -26,11 +27,16 @@ public class hashmapExample {
     // System.out.println(hm);
 
     // size
-    System.out.println(hm.size());
+    // System.out.println(hm.size());
 
-    // Is empty
-    hm.clear();
-    System.out.println(hm.isEmpty());
+    // // Is empty
+    // hm.clear();
+    // System.out.println(hm.isEmpty());
+
+
+    //Iterate
+    Set<String> keys = hm.keySet();
+    System.out.println(keys);
     
     }
 }
