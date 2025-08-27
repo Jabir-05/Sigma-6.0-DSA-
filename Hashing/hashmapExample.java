@@ -35,10 +35,14 @@ public class hashmapExample {
 
 
     //Iterate
-    Set<String> keys = hm.keySet();
-    System.out.println(keys);
-    for(String k : keys ){
-        System.out.println("key ="+k+",value"+hm.get(k));
-    }
+    // Set<String> keys = hm.keySet();
+    // System.out.println(keys);
+    // for(String k : keys ){
+    //     System.out.println("key ="+k+",value"+hm.get(k));
+
+
+    // }
+
+    
     }
 }
