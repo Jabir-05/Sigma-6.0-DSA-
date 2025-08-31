@@ -16,6 +16,7 @@ This repository contains my ongoing journey of **Data Structures and Algorithms 
 - ⏳ Stacks & Queues
 - ⏳ Trees & Binary Trees
 - ✅ Recursion & Backtracking
+- ✅ ArrayList
 - ⏳ Hashing (HashMap / HashSet)
 - ⏳ Sorting & Searching
 - ⏳ Dynamic Programming
