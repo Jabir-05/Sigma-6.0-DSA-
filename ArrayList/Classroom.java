@@ -5,5 +5,31 @@ public class Classroom {
         ArrayList<Integer> list = new ArrayList<>();
         ArrayList<String> list2 = new ArrayList<>();
         ArrayList<Boolean> list3 = new ArrayList<>();
+
+
+    // Add Element O(1)
+        list.add(1);  // Time Complex : O(1)
+        list.add((2));
+        list.add(3);
+        list.add((4));
+
+        list.add(1,9); // O(n)
+        System.out.println(list);
+
+        // Get Element O(1)
+        int element =list.get(2);
+        System.out.println(element);
+
+        //remove Element  O(n)
+        list.remove(2);
+        System.out.println(list);
+
+        //set  O(n)
+        list.set(2, 10);
+        System.out.println(list);
+
+        System.out.println(list.contains(1));
+        System.out.println(list.contains(11));
+
     }
 }
