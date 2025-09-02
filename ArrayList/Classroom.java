@@ -13,7 +13,7 @@ public class Classroom {
         list.add(3);
         list.add((4));
 
-        list.add(1,9); // O(n)
+        list.add(1,9); // O(n)git 
         System.out.println(list);
         System.out.println(list.size()); // size of arraylist
 
