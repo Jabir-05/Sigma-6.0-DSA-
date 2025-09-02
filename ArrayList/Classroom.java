@@ -15,6 +15,11 @@ public class Classroom {
 
         list.add(1,9); // O(n)
         System.out.println(list);
+        System.out.println(list.size()); // size of arraylist
+
+        for(int i= 0; i<list.size();i++){
+            System.out.println(list.get(i));
+        }
 
         // Get Element O(1)
         int element =list.get(2);
