@@ -1,6 +1,6 @@
-import java.util.LinkedList;
+ import java.util.LinkedList;
 
-public class linklist {
+public class linkedlist {
     public static class  Node {
     int data;
     Node next;
@@ -51,16 +51,39 @@ public class linklist {
         }
 System.out.println("null");
     }
+
+    // public void add(int idx, int data){
+    //     Node newNode = new Node(data);
+    //     Node temp = head;
+    //     int i =0;
+    //     while ( i < idx -1) {
+    //         temp = temp.next;
+    //         i++;
+            
+    //     }
+    //     // i= idx-1; temp -> prev
+    //     newNode = temp.next;
+    //     temp.next = newNode;
+    // }
+
+    public void add(int idx, int data){
+        Node newNode = new Node(data);
+        Node fast =head;
+        Node slow = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        
+    }
     public static void main(String[] args) {
-       linklist ll = new linklist();
-        ll.print();
-        ll.addFirst(1);
-        ll.print();
+       linkedlist ll = new linkedlist();
+       
         ll.addFirst(2);
-        ll.print();
+        ll.addFirst(1); 
         ll.addLast(3);
-        ll.print();
         ll.addLast(4);
+        ll.add(2, 9);
         ll.print();
 
     }
